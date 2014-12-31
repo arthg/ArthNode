@@ -1,0 +1,10 @@
+{
+  "name": "ArthNode",
+  "version": "0.0.0",
+  "description": "ArthNode",
+  "main": "server.js",
+  "author": {
+    "name": "Arthur",
+    "email": ""
+  }
+}
