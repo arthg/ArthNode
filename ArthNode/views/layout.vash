@@ -2,7 +2,8 @@
 <html>
 	<head>
     <title>@model.title</title>
-		@html.block("head")
+    <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    @html.block("head")
     <link href="/css/site.css" rel="stylesheet" />
 	</head>
 	<body>
@@ -16,6 +17,7 @@
     <footer class="container">
       <p>Project ArthNode</p>      
     </footer>
-		@html.block("scripts")
-	</body>
+    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    @html.block("scripts")
+  </body>
 </html>
