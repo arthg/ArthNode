@@ -35,4 +35,5 @@ Planned Features:
 - View list of workouts
 - Add a workout
 - Edit a workout
+- Delete a workout
 - Login
