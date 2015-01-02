@@ -6,6 +6,9 @@ app.get("/", function (req, res) {
     res.render("index", { title: "Project ArthNode" });
 });
 
+var controllers = require("./controllers");
+controllers.init(app);
+
 app.set("view engine", "vash"); // vash view engine
 
 // set the public static resource folder

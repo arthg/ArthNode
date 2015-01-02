@@ -30,6 +30,10 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="controllers\index.js" />
+    <Compile Include="controllers\workoutsController.js" />
+    <Compile Include="data\database.js" />
+    <Compile Include="data\index.js" />
     <Compile Include="server.js" />
     <Content Include=".bowerrc" />
     <Content Include="package.json" />
@@ -39,6 +43,8 @@
     <Content Include="views\layout.vash" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="controllers\" />
+    <Folder Include="data\" />
     <Folder Include="public\" />
     <Folder Include="public\css\" />
     <Folder Include="views\" />
