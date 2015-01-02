@@ -10,6 +10,7 @@ Project ArthNode is just for shits and giggles experiment for learning some tech
 
 Expand experience with tech:
 
+- REST api
 - MongoBD
 - HTML5
 
@@ -28,6 +29,7 @@ There is no need to create a new workouts tracker.  Apps like Runkeeper are more
 
 Planned Features:
 
+- RESTful api
 - View list of workouts
 - Add a workout
 - Edit a workout
