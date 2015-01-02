@@ -11,8 +11,9 @@ Project ArthNode is just for shits and giggles experiment for learning some tech
 
 Expand experience with tech:
 
+- JavaScript
 - REST api
-- MongoBD
+- MongoDB
 - HTML5
 
 Process:
@@ -26,6 +27,7 @@ Tools:
 - Bower
 - Grunt 
 - Jasmine
+- Node packages
 
 There is no need to create a new workouts tracker.  Apps like Runkeeper are more than adequate.  Still, this is my go to project for learning new tech.  Have started and never completed many workout trackers.  Here we go again.
 
