@@ -35,6 +35,7 @@
     <Compile Include="data\database.js" />
     <Compile Include="data\index.js" />
     <Compile Include="server.js" />
+    <Compile Include="spec\database-spec.js" />
     <Content Include=".bowerrc" />
     <Content Include="package.json" />
     <Content Include="public\css\site.css" />
@@ -45,6 +46,7 @@
   <ItemGroup>
     <Folder Include="controllers\" />
     <Folder Include="data\" />
+    <Folder Include="spec\" />
     <Folder Include="public\" />
     <Folder Include="public\css\" />
     <Folder Include="views\" />
