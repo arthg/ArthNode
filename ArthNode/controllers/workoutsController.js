@@ -17,5 +17,23 @@
             });
         });
 
+        app.post("/api/workouts", function (req, res) {                       
+            var workoutToInsert = {
+                date: req.body.date,
+                activity: req.body.activity,
+                venue: req.body.venue,
+                duration: req.body.duration,
+                distance: req.body.distance,
+                notes: req.body.notes
+            };
+            data.addWorkout(workoutToInsert, function (err) {
+                if (err) {
+                    res.send(400, "Failed to add workout to data store");
+                } else {
+                    res.set("Content-Type", "application/json");
+                    res.send(201, workoutToInsert);
+                }
+            });
+        });
     };
 })(module.exports);
