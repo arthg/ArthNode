@@ -30,6 +30,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="public\app\common\formulaBmi.js" />
     <Compile Include="public\app\main.js" />
     <Compile Include="controllers\index.js" />
     <Compile Include="controllers\workoutsController.js" />
@@ -48,6 +49,7 @@
     <Folder Include="controllers\" />
     <Folder Include="data\" />
     <Folder Include="public\app\" />
+    <Folder Include="public\app\common\" />
     <Folder Include="spec\" />
     <Folder Include="public\" />
     <Folder Include="public\css\" />
