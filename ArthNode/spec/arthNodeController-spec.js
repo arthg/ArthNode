@@ -13,7 +13,7 @@
         expect(arthNodeController).not.toBeNull();
     });
     
-    it("should contain a reference to the unit of measure service", function () {
+    it("should contain a reference to the arthNode service", function () {
         expect(arthNodeController.arthNodeService).not.toBeNull();
     });
 });

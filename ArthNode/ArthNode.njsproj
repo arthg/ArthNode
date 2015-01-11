@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="public\app\common\formulaBmi.js" />
+    <Compile Include="public\app\controllers\arthNodeController.js" />
     <Compile Include="public\app\main.js" />
     <Compile Include="controllers\index.js" />
     <Compile Include="controllers\workoutsController.js" />
@@ -53,6 +54,7 @@
     <Folder Include="data\" />
     <Folder Include="public\app\" />
     <Folder Include="public\app\common\" />
+    <Folder Include="public\app\controllers\" />
     <Folder Include="public\app\services\" />
     <Folder Include="spec\" />
     <Folder Include="public\" />
