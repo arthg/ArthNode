@@ -39,6 +39,7 @@
     <Compile Include="public\app\services\arthNodeService.js" />
     <Compile Include="server.js" />
     <Compile Include="spec\arthNode-spec.js" />
+    <Compile Include="spec\arthNodeController-spec.js" />
     <Compile Include="spec\database-spec.js" />
     <Compile Include="spec\arthNodeService-spec.js" />
     <Content Include=".bowerrc" />
