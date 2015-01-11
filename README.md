@@ -19,6 +19,7 @@ Expand experience with tech:
 Process:
 
 - Test driven JS coding
+- angular-mocks
 
 Tools:
 
