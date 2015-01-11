@@ -17,7 +17,8 @@
     <footer class="container">
       <p>Project ArthNode</p>      
     </footer>
-    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/lib/angular/angular.js"></script>
     @html.block("scripts")
   </body>
 </html>
