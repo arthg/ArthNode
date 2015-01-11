@@ -36,6 +36,7 @@
     <Compile Include="data\database.js" />
     <Compile Include="data\index.js" />
     <Compile Include="server.js" />
+    <Compile Include="spec\arthNode.js" />
     <Compile Include="spec\database-spec.js" />
     <Content Include=".bowerrc" />
     <Content Include="package.json" />
