@@ -19,6 +19,7 @@
     </footer>
     <script type="text/javascript" src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/lib/angular/angular.js"></script>
+    <script type="text/javascript" src="/app/main.js"></script>
     @html.block("scripts")
   </body>
 </html>
