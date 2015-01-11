@@ -36,6 +36,7 @@
     <Compile Include="controllers\workoutsController.js" />
     <Compile Include="data\database.js" />
     <Compile Include="data\index.js" />
+    <Compile Include="public\app\services\arthNodeService.js" />
     <Compile Include="server.js" />
     <Compile Include="spec\arthNode-spec.js" />
     <Compile Include="spec\database-spec.js" />
@@ -51,6 +52,7 @@
     <Folder Include="data\" />
     <Folder Include="public\app\" />
     <Folder Include="public\app\common\" />
+    <Folder Include="public\app\services\" />
     <Folder Include="spec\" />
     <Folder Include="public\" />
     <Folder Include="public\css\" />

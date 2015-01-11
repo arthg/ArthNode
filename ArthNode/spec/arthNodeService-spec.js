@@ -1,21 +1,21 @@
 describe("ArthNode service", function () {
-    var formulaBmiSvc;
+    var arthNodeSvc;
     
     beforeEach(function () {
         module('arthNode');
     });
     
-    beforeEach(inject(function (formulaBmiService) {
-        formulaBmiSvc = formulaBmiService;
+    beforeEach(inject(function (arthNodeService) {
+        arthNodeSvc = arthNodeService;
     }));
     
     it("should be defined", function () {
-        expect(formulaBmiSvc).not.toBeNull();
+        expect(arthNodeSvc).not.toBeNull();
     });
 
     it("should be a function", function() {
         var fnPrototype = {},
-            isFn = formulaBmiSvc && fnPrototype.toString.call(formulaBmiSvc) === '[object Function]';
+            isFn = arthNodeSvc && fnPrototype.toString.call(arthNodeSvc) === '[object Function]';
         expect(isFn).toBe(true);
     });
 });
