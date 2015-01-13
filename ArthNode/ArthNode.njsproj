@@ -30,6 +30,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="data\seedActivities.js" />
     <Compile Include="public\app\common\formulaBmi.js" />
     <Compile Include="public\app\controllers\arthNodeController.js" />
     <Compile Include="public\app\main.js" />

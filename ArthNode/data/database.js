@@ -11,7 +11,8 @@
                 } else {
                     theDb = {
                         db: db,
-                        workouts: db.collection("workouts")
+                        workouts: db.collection("workouts"),
+                        activities: db.collection("activities")
                     };
                     next(null, theDb);
                 }
